@@ -1,15 +1,16 @@
 # Importación de módulos
 
-from math import log2
-from dataclasses import dataclass
-from typing import Dict, List, NamedTuple, Set, Tuple
 import random as rand
-import heapq as heap
-from disjoin_set import DisjoinSet
-from scipy.sparse.csgraph import dijkstra, floyd_warshall
-from scipy.sparse import csr_matrix
-from numpy.typing import NDArray
+from dataclasses import dataclass
+from math import log2
+from typing import Dict, List, NamedTuple, Set, Tuple
+
 import numpy as np
+from numpy.typing import NDArray
+from scipy.sparse import csr_matrix
+from scipy.sparse.csgraph import dijkstra, floyd_warshall
+
+from disjoin_set import DisjoinSet
 
 # Clase para almacenar datos de las aristas
 
